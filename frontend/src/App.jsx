@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = 'https://linktrack-5t6o.onrender.com/api';
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token') || '');
